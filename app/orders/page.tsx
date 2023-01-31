@@ -1,10 +1,9 @@
-import type { NextPage } from 'next'
 import { FaShoppingBag } from 'react-icons/fa'
 import { BsThreeDotsVertical } from 'react-icons/bs'
 import { salesData } from 'data'
 
 
-const OrdersPage: NextPage = () => {
+const OrdersPage = () => {
   return (
     <>
       <div className='bg-gray-100 min-h-screen'>

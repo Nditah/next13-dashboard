@@ -1,6 +1,5 @@
-import type { NextPage } from 'next'
 
-const Header: NextPage = () => {
+const Header = () => {
   return (
     <>
       <div className="flex justify-between px-4 pt-4">

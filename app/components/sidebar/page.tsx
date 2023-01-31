@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import { RxSketchLogo, RxDashboard, RxPerson,   } from 'react-icons/rx'
 import { BiLogOutCircle } from 'react-icons/bi'
 import { FiSettings } from 'react-icons/fi'

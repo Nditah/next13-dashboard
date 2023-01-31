@@ -1,9 +1,8 @@
-import type { NextPage } from 'next'
 import { BsPersonFill, BsThreeDotsVertical } from 'react-icons/bs'
 import { salesData } from 'data'
 
 
-const SettingsPage: NextPage = () => {
+const SettingsPage = () => {
   return (
     <>
       <div className='bg-gray-100 min-h-screen'>

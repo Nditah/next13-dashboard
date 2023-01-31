@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import type { NextPage } from 'next'
 import { Bar, Doughnut } from 'react-chartjs-2';
 import { 
   Chart as ChartJS, 
@@ -35,7 +34,7 @@ type ChartInput = {
   }[];
 }
 
-const BarChart: NextPage = () => {
+const BarChart = () => {
 
   const chartInput: ChartInput = {
     labels: [''],

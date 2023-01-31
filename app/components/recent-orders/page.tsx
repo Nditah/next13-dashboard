@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
 import { FaShoppingBag } from 'react-icons/fa'
 import { salesData } from 'data'
 
-const RecentOrders: NextPage = () => {
+const RecentOrders = () => {
   return (
     <>
        <div className='bg-white overflow-scroll w-full col-span-1 relative lg:h-[70vh] h-[50vh] m-auto p-4 border rounded-lg'>
