@@ -4,15 +4,12 @@ import { BiLogOutCircle } from 'react-icons/bi'
 import { FiSettings } from 'react-icons/fi'
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 
-type PageProps = {
-    children: React.ReactNode
-}
 
-const Sidebar = ({ children }: PageProps) => {
+const Sidebar = () => {
 
   return (
     <>
-      <div className='flex'>
+      
         <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
             <div className="flex flex-col items-center">
                 <Link href={`/`} >
@@ -49,10 +46,7 @@ const Sidebar = ({ children }: PageProps) => {
                 
             </div>
         </div>
-       <main className='ml-20 w-full'>
-        { children }
-        </main>
-      </div>
+
     </>
   )
 }

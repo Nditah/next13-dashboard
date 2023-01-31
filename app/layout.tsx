@@ -6,9 +6,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html>
       <head />
       <body>
-        <Sidebar>
-          {children}
-        </Sidebar> 
+        <div className='flex'>
+          <Sidebar />
+          <main className='ml-20 w-full'>
+            { children }
+          </main>
+        </div> 
        </body>
     </html>
   )
