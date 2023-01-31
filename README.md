@@ -29,4 +29,5 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 - Add `"baseUrl": ".",`  under `compilerOptions` in `tsconfig.json`  to avoid nested import
 - https://react-chartjs-2.js.org/
+- Deployed at https://next13-dashboard-papr-bce3rrrpt-nditah.vercel.app/
 - 
