@@ -1,11 +1,10 @@
-import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from 'app/components/header/page'
 import TopCards from 'app/components/top-cards/page'
 import BarChart from 'app/components/bar-chart/page'
 import RecentOrders from 'app/components/recent-orders/page'
 
-const HomePage: NextPage = () => {
+const HomePage = () => {
   return (
     <>
       <Head>
